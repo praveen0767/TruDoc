@@ -19,7 +19,7 @@
 ### 🔐 Live SHA-256 Content-Integrity Proof
 
 <p align="center">
-  <img src="Screenshot 2026-09-26 162653.png" alt="TruDoc SHA-256 content integrity evidence" width="1000"/>
+  <img src="./docs/screenshots/08-sha256-content-integrity.png" alt="TruDoc SHA-256 content integrity evidence" width="1000"/>
 </p>
 
 > The document is registered with a SHA-256 content hash. On later verification, a hash mismatch produces `CONTENT_HASH_CHANGED → SUSPICIOUS SIGNAL → REVIEW_REQUIRED`. A changed hash proves byte-level difference from the registered artifact; it does **not** by itself prove malicious fraud.
@@ -41,6 +41,22 @@
 </p>
 
 > **AI extracts. Evidence grounds. Validation checks. Policy constrains. Humans resolve uncertainty. Only verified results become trusted.**
+
+### Current Local Proof Snapshot
+
+| Signal | Current local observation |
+|---|---:|
+| OCR provider | EasyOCR 1.7.2 |
+| Extracted fields | 7 |
+| Field coverage | 100% |
+| Mean field reliability | 76% |
+| OCR mean confidence | 0.84 |
+| SHA-256 content hash | Captured at ingestion |
+| Evidence / bbox | Available for extracted OCR-backed fields |
+| Document types | Purchase Order + Invoice path |
+| Review state | `REVIEW_REQUIRED` supported |
+
+> These values are **local demonstration observations**, not calibrated production benchmarks. The current implementation is intentionally separated from the planned enterprise-hardening architecture.
 
 ---
 
@@ -1196,44 +1212,29 @@ Additional modules can be introduced as functionality becomes real; empty archit
 
 # 18. Product Proof
 
-## 00 — SHA-256 Content Integrity
-
-<p align="center">
-  <img src="./docs/screenshots/08-sha256-content-integrity.png" alt="SHA-256 content integrity evidence" width="1000"/>
-</p>
-
-> **Integrity evidence:** registered SHA-256 hash shown in the TruDoc provenance view. The verification path flags a changed hash as `CONTENT_HASH_CHANGED` and routes it to review.
-
-Screenshots will be added after the final local run.
-
 ## 01 — TruDoc Overview
 
-> Add screenshot: `docs/screenshots/01-overview.png`
+![TruDoc Overview](./Dashboard.png)
 
-## 02 — Structured Extraction
+## 02 — Document Directory
 
-> Add screenshot: `docs/screenshots/02-extraction.png`
+![Document Directory](./Document_soc.png)
 
 ## 03 — Evidence / Bounding Box
 
-> Add screenshot: `docs/screenshots/03-evidence.png`
+![Evidence and Actual OCR Bounding Box](./Evidence.png)
 
-## 04 — Validation
+## 04 — Human Review Queue
 
-> Add screenshot: `docs/screenshots/04-validation.png`
+![Human Review Queue](./Queue.png)
 
-## 05 — PO ↔ Invoice Reconciliation
+## 05 — Agent Execution Trace
 
-> Add screenshot: `docs/screenshots/05-reconciliation.png`
+![Agent Execution Runs](./Agent_run.png)
 
-## 06 — Human Review / Correction
+## 06 — SHA-256 Content Integrity
 
-> Add screenshot: `docs/screenshots/06-review.png`
-
-## 07 — Agent / MCP Execution Trace
-
-> Add screenshot: `docs/screenshots/07-agent-trace.png`
-
+![SHA-256 Content Integrity Proof](./Screenshot%202026-09-26%20162653.png)
 ---
 
 # 19. Local Development
