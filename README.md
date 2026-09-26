@@ -711,6 +711,7 @@ The system never silently chooses one source.
 # 10. Integrity / Tamper Signals
 
 TruDoc treats tamper detection as **signals**, not automatic proof of fraud.
+The objective is to make document integrity changes deterministic, visible, and reviewable without pretending that a hash alone establishes malicious intent.
 
 Potential signals:
 
@@ -722,6 +723,7 @@ layout inconsistency
 suspicious text inconsistency
 duplicate content
 unexpected image structure
+content hash changed
 ```
 
 Output semantics:
@@ -744,25 +746,158 @@ rather than unsupported claims such as:
 FRAUD CONFIRMED
 ```
 
+## 10.1 Deterministic Content Integrity — SHA-256
+
+A core integrity primitive is a **SHA-256 content hash** of the original document bytes.
+This is intentionally simple: the hash provides an exact byte-level identity for a document version and gives TruDoc a deterministic way to detect whether that same registered artifact has changed.
+
+At ingestion:
+
+```text
+Original document bytes
+        ↓
+SHA-256(document_bytes)
+        ↓
+Store document_hash + hash_algorithm
+```
+
+At later verification / reprocessing:
+
+```text
+Current document bytes
+        ↓
+SHA-256(current_bytes)
+        ↓
+Compare with registered document_hash
+```
+
+The resulting state is deterministic:
+
+```text
+current_hash == registered_hash
+        ↓
+INTEGRITY: CLEAR
+
+current_hash != registered_hash
+        ↓
+CONTENT_CHANGED
+        ↓
+SUSPICIOUS SIGNAL
+        ↓
+REVIEW_REQUIRED
+```
+
+### Important semantic boundary
+
+A changed SHA-256 hash means that the byte representation of the registered document is no longer identical. It does **not**, by itself, prove malicious tampering or fraud. A legitimate re-export, metadata rewrite, PDF regeneration, or authorized edit can also change the bytes.
+
+Therefore TruDoc uses the signal as:
+
+```text
+CONTENT_HASH_CHANGED
+```
+
+not:
+
+```text
+FRAUD_CONFIRMED
+```
+
+### Integrity record
+
+The target integrity metadata is:
+
+```json
+{
+  "hash_algorithm": "SHA-256",
+  "document_hash": "<hex digest>",
+  "integrity_status": "CLEAR",
+  "verified_at": "<timestamp>"
+}
+```
+
+When the same registered document changes:
+
+```json
+{
+  "hash_algorithm": "SHA-256",
+  "expected_hash": "<original digest>",
+  "current_hash": "<new digest>",
+  "integrity_status": "CHANGED",
+  "signal": "CONTENT_HASH_CHANGED",
+  "review_required": true
+}
+```
+
+### Integrity flow
+
+```mermaid
+flowchart LR
+    A[Original Document Bytes] --> B[SHA-256] --> C[Registered Document Hash]
+    D[Current Document Bytes] --> E[SHA-256] --> F[Current Hash]
+    C --> G{Hash Equal?}
+    F --> G
+    G -->|YES| H[INTEGRITY CLEAR]
+    G -->|NO| I[CONTENT HASH CHANGED]
+    I --> J[SUSPICIOUS SIGNAL]
+    J --> K[REVIEW REQUIRED]
+```
+
+This mechanism complements, rather than replaces, higher-level integrity signals such as impossible dates, metadata anomalies, layout inconsistencies, or arithmetic contradictions.
+
 ---
 
 # 11. Duplicate Detection
 
-The target design uses:
+The target design combines deterministic exact matching with optional similarity detection:
 
 ```text
-exact content hash
+SHA-256 exact content hash
 +
 near-duplicate / perceptual similarity
 ```
 
-to identify:
+### Exact duplicate
 
-- same file uploaded twice
-- same invoice with a different filename
-- near-identical document images
+If two uploaded artifacts have the same SHA-256 content hash:
 
-A duplicate signal becomes part of the trust/review context.
+```text
+Document A hash
+        =
+Document B hash
+        ↓
+EXACT_DUPLICATE
+```
+
+This is a deterministic byte-for-byte duplicate signal. It can catch the same file uploaded twice even when filenames differ.
+
+### Near duplicate
+
+For visually similar but byte-different documents, a perceptual fingerprint or equivalent image similarity mechanism can provide a secondary signal:
+
+```text
+Document A fingerprint
+        ↓
+similarity comparison
+        ↓
+Document B fingerprint
+        ↓
+DUPLICATE_SUSPECTED
+```
+
+A duplicate signal becomes part of the trust/review context. It does not by itself prove fraud or invalidity.
+
+### Why both mechanisms exist
+
+```text
+SHA-256
+→ exact byte identity
+
+Perceptual similarity
+→ semantic / visual similarity
+```
+
+The first is deterministic and exact; the second tolerates benign changes such as recompression or image re-encoding.
 
 ---
 
