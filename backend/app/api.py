@@ -404,10 +404,29 @@ def get_trace(document_id: str):
 
 @app.get("/api/documents/{document_id}/pages/{page}")
 def get_page_image(document_id: str, page: int):
-    """Serve the original uploaded file so the bbox overlay is drawn on real pixels."""
+    """Serve the original uploaded file or a rendered page image so the bbox overlay is drawn on real pixels."""
     path = _FILE_OF.get(document_id)
     if not path or not Path(path).exists():
         raise HTTPException(status_code=404, detail="Source image not available")
+    
+    doc = _require_doc(document_id)
+    if doc.provenance.mime_type == "application/pdf":
+        cache_path = Path(tempfile.gettempdir()) / "trudoc_src" / f"{document_id}_p{page}.jpg"
+        if not cache_path.exists():
+            try:
+                import fitz
+                pdf = fitz.open(str(path))
+                if 1 <= page <= len(pdf):
+                    pix = pdf[page - 1].get_pixmap(dpi=200)
+                    from PIL import Image
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    img.save(str(cache_path), format="JPEG")
+                else:
+                    raise HTTPException(status_code=404, detail="Page not found")
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=f"Failed to render PDF page: {e}")
+        return FileResponse(str(cache_path))
+        
     return FileResponse(path)
 
 

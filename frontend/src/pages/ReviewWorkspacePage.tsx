@@ -20,7 +20,10 @@ export function ReviewWorkspacePage() {
   const [actionSuccessMessage, setActionSuccessMessage] = useState<string | null>(null);
 
   const fetchReview = async () => {
-    if (!id) return;
+    if (!id || id === 'undefined' || id === 'null') {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(null);
     try {

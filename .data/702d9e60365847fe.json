@@ -8,7 +8,7 @@
     "pipeline_version": "2.0",
     "ocr_engine": "easyocr",
     "ocr_engine_version": "1.7.2",
-    "processed_at": "2026-09-26T09:47:02.335904",
+    "processed_at": "2026-09-26T10:08:21.305289",
     "mime_type": "image",
     "page_count": 1
   },
@@ -794,7 +794,7 @@
   "overall_status": "REVIEW_REQUIRED",
   "trace": [
     {
-      "timestamp": "2026-09-26T09:47:02.335904",
+      "timestamp": "2026-09-26T10:08:21.305289",
       "stage": "ingest",
       "component": "Ingest",
       "status": "completed",
@@ -804,7 +804,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:02.350911",
+      "timestamp": "2026-09-26T10:08:21.322094",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -814,17 +814,17 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:02.363427",
+      "timestamp": "2026-09-26T10:08:21.334107",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
       "details": {
         "tool": "document.assess_quality",
-        "latency_ms": 12.5
+        "latency_ms": 12.0
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:02.363427",
+      "timestamp": "2026-09-26T10:08:21.334107",
       "stage": "quality",
       "component": "QualityGate",
       "status": "DocumentQualityStatus.GOOD",
@@ -833,7 +833,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:02.466608",
+      "timestamp": "2026-09-26T10:08:21.422220",
       "stage": "preprocess",
       "component": "Preprocessor",
       "status": "completed",
@@ -842,7 +842,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.531319",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "ocr",
       "component": "OCR",
       "status": "completed",
@@ -853,7 +853,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.531319",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -863,7 +863,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.531319",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
@@ -873,7 +873,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.531319",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "classify",
       "component": "Classifier",
       "status": "completed",
@@ -883,7 +883,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.531319",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -893,7 +893,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.531319",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -905,7 +905,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -917,7 +917,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.601739",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -929,7 +929,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -941,7 +941,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -953,7 +953,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -965,7 +965,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "extract",
       "component": "Extractor",
       "status": "field_found",
@@ -977,7 +977,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "extract",
       "component": "Extractor",
       "status": "completed",
@@ -986,17 +986,17 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
       "details": {
         "tool": "document.extract_fields",
-        "latency_ms": 1.0
+        "latency_ms": 1.4
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.532318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -1006,24 +1006,24 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "extract",
       "component": "TableExtractor",
       "status": "table_no_rows",
       "details": {}
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
       "details": {
         "tool": "document.extract_table",
-        "latency_ms": 1.0
+        "latency_ms": 0.0
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -1033,14 +1033,14 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "validate",
       "component": "Validator",
       "status": "started",
       "details": {}
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "validate",
       "component": "Validator",
       "status": "arithmetic_pass",
@@ -1049,7 +1049,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "validate",
       "component": "Validator",
       "status": "tax_rate_mismatch",
@@ -1060,7 +1060,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "validate",
       "component": "Validator",
       "status": "completed",
@@ -1069,7 +1069,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
@@ -1079,7 +1079,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -1089,7 +1089,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "tamper_check",
       "component": "TamperGuard",
       "status": "TamperStatus.CLEAR",
@@ -1098,7 +1098,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
@@ -1108,7 +1108,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "policy",
       "component": "Policy",
       "status": "ALLOWED",
@@ -1118,14 +1118,14 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "duplicate_check",
       "component": "DuplicateGuard",
       "status": "CLEAR",
       "details": {}
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "exec",
       "component": "Executor",
       "status": "COMPLETED",
@@ -1135,7 +1135,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.603186",
       "stage": "finalize",
       "component": "Planner",
       "status": "RUN",
@@ -1144,7 +1144,7 @@
       }
     },
     {
-      "timestamp": "2026-09-26T09:47:07.533318",
+      "timestamp": "2026-09-26T10:08:26.604582",
       "stage": "finalize",
       "component": "Validator",
       "status": "REVIEW_REQUIRED",

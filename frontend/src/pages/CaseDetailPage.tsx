@@ -14,7 +14,10 @@ export function CaseDetailPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!id) return;
+    if (!id || id === 'undefined' || id === 'null') {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(null);
     getCase(id)

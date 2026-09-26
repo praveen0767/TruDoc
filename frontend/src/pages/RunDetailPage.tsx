@@ -15,7 +15,10 @@ export function RunDetailPage() {
   const [expandedStage, setExpandedStage] = useState<number | null>(null);
 
   useEffect(() => {
-    if (!id) return;
+    if (!id || id === 'undefined' || id === 'null') {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(null);
     getRun(id)

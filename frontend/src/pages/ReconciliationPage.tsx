@@ -24,7 +24,10 @@ export function ReconciliationPage() {
   const [notification, setNotification] = useState<{ message: string; type: 'success' | 'info' } | null>(null);
 
   const loadData = async () => {
-    if (!documentId) return;
+    if (!documentId || documentId === 'undefined' || documentId === 'null') {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(null);
     try {
@@ -77,7 +80,7 @@ export function ReconciliationPage() {
   };
 
   useEffect(() => {
-    if (documentId) {
+    if (documentId && documentId !== 'undefined' && documentId !== 'null') {
       loadData();
     } else {
       setLoading(false);
