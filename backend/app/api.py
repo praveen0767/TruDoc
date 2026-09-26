@@ -402,32 +402,76 @@ def get_trace(document_id: str):
     return _trace_view(_require_doc(document_id))
 
 
-@app.get("/api/documents/{document_id}/pages/{page}")
-def get_page_image(document_id: str, page: int):
-    """Serve the original uploaded file or a rendered page image so the bbox overlay is drawn on real pixels."""
+def _detect_media_type(file_path: str) -> str:
+    """Detect image media type from file magic bytes."""
+    try:
+        with open(file_path, "rb") as f:
+            header = f.read(16)
+        if header[:4] == b'\x89PNG':
+            return "image/png"
+        if header[:2] in (b'\xff\xd8', b'\xff\xe0', b'\xff\xe1'):
+            return "image/jpeg"
+        if header[:4] in (b'II*\x00', b'MM\x00*'):
+            return "image/tiff"
+        if header[:4] == b'RIFF' and header[8:12] == b'WEBP':
+            return "image/webp"
+        if header[:3] == b'GIF':
+            return "image/gif"
+    except Exception:
+        pass
+    return "image/jpeg"  # safe fallback
+
+
+def _serve_image(document_id: str, page: int):
+    """Core logic: find stored file, render PDF pages, return FileResponse with correct Content-Type.
+    Falls back to the deterministic on-disk path (tempdir/trudoc_src/{id}) so image serving
+    survives a uvicorn restart without requiring a re-upload."""
+    # 1. In-memory mapping (set on upload)
     path = _FILE_OF.get(document_id)
+    # 2. Deterministic fallback: file was persisted here during upload
+    if not path or not Path(path).exists():
+        fallback = Path(tempfile.gettempdir()) / "trudoc_src" / document_id
+        if fallback.exists():
+            path = str(fallback)
+            _FILE_OF[document_id] = path  # restore for subsequent calls
     if not path or not Path(path).exists():
         raise HTTPException(status_code=404, detail="Source image not available")
-    
+
     doc = _require_doc(document_id)
     if doc.provenance.mime_type == "application/pdf":
         cache_path = Path(tempfile.gettempdir()) / "trudoc_src" / f"{document_id}_p{page}.jpg"
         if not cache_path.exists():
             try:
-                import fitz
+                import fitz  # type: ignore
                 pdf = fitz.open(str(path))
                 if 1 <= page <= len(pdf):
                     pix = pdf[page - 1].get_pixmap(dpi=200)
-                    from PIL import Image
-                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    from PIL import Image as _PIL_Image
+                    img = _PIL_Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    cache_path.parent.mkdir(parents=True, exist_ok=True)
                     img.save(str(cache_path), format="JPEG")
                 else:
                     raise HTTPException(status_code=404, detail="Page not found")
-            except Exception as e:
-                raise HTTPException(status_code=500, detail=f"Failed to render PDF page: {e}")
-        return FileResponse(str(cache_path))
-        
-    return FileResponse(path)
+            except HTTPException:
+                raise
+            except Exception as exc:
+                raise HTTPException(status_code=500, detail=f"Failed to render PDF page: {exc}")
+        return FileResponse(str(cache_path), media_type="image/jpeg")
+
+    media_type = _detect_media_type(path)
+    return FileResponse(path, media_type=media_type)
+
+
+@app.get("/api/documents/{document_id}/pages/{page}")
+def get_page_image(document_id: str, page: int):
+    """Serve the original uploaded file or a rendered page image with correct Content-Type."""
+    return _serve_image(document_id, page)
+
+
+@app.get("/api/documents/{document_id}/pages/{page}/image")
+def get_page_image_alias(document_id: str, page: int):
+    """Alias for /pages/{page} — returns the same image with explicit Content-Type."""
+    return _serve_image(document_id, page)
 
 
 @app.post("/api/documents/{document_id}/revalidate")
