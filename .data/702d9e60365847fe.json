@@ -1,0 +1,1158 @@
+{
+  "provenance": {
+    "document_id": "702d9e60365847fe",
+    "content_hash": "702d9e60365847fe58d8bf3f1713abf77a6ed80b43a3967871d2952d839ee6b9",
+    "document_type": "purchase_order",
+    "classification_method": "deterministic_signals",
+    "schema_version": "2.0",
+    "pipeline_version": "2.0",
+    "ocr_engine": "easyocr",
+    "ocr_engine_version": "1.7.2",
+    "processed_at": "2026-09-26T09:47:02.335904",
+    "mime_type": "image",
+    "page_count": 1
+  },
+  "quality": {
+    "signals": {
+      "blur": 1092.3822021484375,
+      "contrast": 57.421104431152344,
+      "resolution": 1081344,
+      "skew": 0.0,
+      "readability": 0.05256503062075651
+    },
+    "status": "GOOD",
+    "score": 1.0
+  },
+  "ocr_results": [
+    {
+      "page_number": 1,
+      "tokens": [
+        {
+          "text": "ABC Technologies Pvt Ltd",
+          "confidence": 0.9981186265620587,
+          "bbox": [
+            380,
+            74,
+            604,
+            102
+          ],
+          "page": 1
+        },
+        {
+          "text": "PURCHASE ORDER",
+          "confidence": 0.7525636351262696,
+          "bbox": [
+            727,
+            71,
+            1051,
+            107
+          ],
+          "page": 1
+        },
+        {
+          "text": "123, Tech Park; Bangalore - 560001 ,",
+          "confidence": 0.6692844549056925,
+          "bbox": [
+            380,
+            96,
+            584,
+            120
+          ],
+          "page": 1
+        },
+        {
+          "text": "Karataka; India",
+          "confidence": 0.46036576460561146,
+          "bbox": [
+            381,
+            117,
+            475,
+            133
+          ],
+          "page": 1
+        },
+        {
+          "text": "PO Number:",
+          "confidence": 0.9278721751859575,
+          "bbox": [
+            727,
+            115,
+            813,
+            135
+          ],
+          "page": 1
+        },
+        {
+          "text": "PO-2026-1042",
+          "confidence": 0.6256313373548485,
+          "bbox": [
+            841,
+            115,
+            937,
+            135
+          ],
+          "page": 1
+        },
+        {
+          "text": "ABC Tech",
+          "confidence": 0.9062725884715451,
+          "bbox": [
+            286,
+            138,
+            372,
+            162
+          ],
+          "page": 1
+        },
+        {
+          "text": "Emall: acccunta@abctech com",
+          "confidence": 0.7286830944920184,
+          "bbox": [
+            381,
+            133,
+            555,
+            151
+          ],
+          "page": 1
+        },
+        {
+          "text": "Order Date:",
+          "confidence": 0.9939020687906075,
+          "bbox": [
+            727,
+            135,
+            809,
+            155
+          ],
+          "page": 1
+        },
+        {
+          "text": "25-09-2026",
+          "confidence": 0.8440652823488856,
+          "bbox": [
+            839,
+            135,
+            917,
+            155
+          ],
+          "page": 1
+        },
+        {
+          "text": "Vendor:",
+          "confidence": 0.9998448652894647,
+          "bbox": [
+            729,
+            157,
+            785,
+            173
+          ],
+          "page": 1
+        },
+        {
+          "text": "ABC Technologies Pvt Ltd",
+          "confidence": 0.8689136180720846,
+          "bbox": [
+            840,
+            154,
+            1008,
+            178
+          ],
+          "page": 1
+        },
+        {
+          "text": "Buyer:",
+          "confidence": 0.9998262554581029,
+          "bbox": [
+            728,
+            176,
+            777,
+            196
+          ],
+          "page": 1
+        },
+        {
+          "text": "Industries Pvt Lld",
+          "confidence": 0.7258642140762988,
+          "bbox": [
+            873,
+            175,
+            985,
+            193
+          ],
+          "page": 1
+        },
+        {
+          "text": "(456, Industrial Area, Chennai -",
+          "confidence": 0.5970903184235498,
+          "bbox": [
+            841,
+            191,
+            1033,
+            211
+          ],
+          "page": 1
+        },
+        {
+          "text": "600096, Tamil Nadu; India)",
+          "confidence": 0.677645105264833,
+          "bbox": [
+            841,
+            207,
+            1013,
+            227
+          ],
+          "page": 1
+        },
+        {
+          "text": "Delivery Date:",
+          "confidence": 0.7081473798321295,
+          "bbox": [
+            726,
+            224,
+            828,
+            250
+          ],
+          "page": 1
+        },
+        {
+          "text": "05-10-2026",
+          "confidence": 0.8853825473260722,
+          "bbox": [
+            841,
+            227,
+            919,
+            245
+          ],
+          "page": 1
+        },
+        {
+          "text": "Item",
+          "confidence": 0.9959537386894226,
+          "bbox": [
+            307,
+            273,
+            343,
+            293
+          ],
+          "page": 1
+        },
+        {
+          "text": "Description",
+          "confidence": 0.9999842569049279,
+          "bbox": [
+            480,
+            272,
+            566,
+            296
+          ],
+          "page": 1
+        },
+        {
+          "text": "Quantity (Qty)",
+          "confidence": 0.908679435278063,
+          "bbox": [
+            694,
+            272,
+            796,
+            296
+          ],
+          "page": 1
+        },
+        {
+          "text": "Unit Price ()",
+          "confidence": 0.9999598875307416,
+          "bbox": [
+            822,
+            270,
+            920,
+            294
+          ],
+          "page": 1
+        },
+        {
+          "text": "Total ()",
+          "confidence": 0.997610492032789,
+          "bbox": [
+            966,
+            270,
+            1030,
+            294
+          ],
+          "page": 1
+        },
+        {
+          "text": "Industrial Sensor (Model IS-200)",
+          "confidence": 0.7217346307565957,
+          "bbox": [
+            369,
+            305,
+            587,
+            325
+          ],
+          "page": 1
+        },
+        {
+          "text": "10",
+          "confidence": 0.9999946052076528,
+          "bbox": [
+            735,
+            305,
+            757,
+            325
+          ],
+          "page": 1
+        },
+        {
+          "text": "2,500.00",
+          "confidence": 0.999422603414641,
+          "bbox": [
+            862,
+            302,
+            926,
+            326
+          ],
+          "page": 1
+        },
+        {
+          "text": "25,000.00",
+          "confidence": 0.9991162254527158,
+          "bbox": [
+            982,
+            302,
+            1056,
+            326
+          ],
+          "page": 1
+        },
+        {
+          "text": "Gateway Module (Model GM-10)",
+          "confidence": 0.8607030447877786,
+          "bbox": [
+            368,
+            332,
+            590,
+            356
+          ],
+          "page": 1
+        },
+        {
+          "text": "5,000,00",
+          "confidence": 0.6796117548179771,
+          "bbox": [
+            863,
+            333,
+            927,
+            353
+          ],
+          "page": 1
+        },
+        {
+          "text": "10,000.00",
+          "confidence": 0.9895118361853613,
+          "bbox": [
+            985,
+            333,
+            1055,
+            353
+          ],
+          "page": 1
+        },
+        {
+          "text": "Subtotal:",
+          "confidence": 0.6691052593448824,
+          "bbox": [
+            873,
+            483,
+            939,
+            501
+          ],
+          "page": 1
+        },
+        {
+          "text": "235,000.00",
+          "confidence": 0.6578985259795816,
+          "bbox": [
+            979,
+            481,
+            1061,
+            501
+          ],
+          "page": 1
+        },
+        {
+          "text": "Tax (18% GST)",
+          "confidence": 0.6974258879798974,
+          "bbox": [
+            830,
+            510,
+            934,
+            534
+          ],
+          "page": 1
+        },
+        {
+          "text": "{6,300.00",
+          "confidence": 0.9669838723061441,
+          "bbox": [
+            989,
+            511,
+            1061,
+            531
+          ],
+          "page": 1
+        },
+        {
+          "text": "Grand Total:",
+          "confidence": 0.8569058804291144,
+          "bbox": [
+            848,
+            540,
+            940,
+            564
+          ],
+          "page": 1
+        },
+        {
+          "text": "241,300.00",
+          "confidence": 0.46934330920505957,
+          "bbox": [
+            976,
+            540,
+            1064,
+            564
+          ],
+          "page": 1
+        },
+        {
+          "text": "Payment Terms: Net 30 days",
+          "confidence": 0.9225456265885447,
+          "bbox": [
+            274,
+            586,
+            480,
+            610
+          ],
+          "page": 1
+        },
+        {
+          "text": "Shipping Method: Courier",
+          "confidence": 0.9997912556963533,
+          "bbox": [
+            274,
+            610,
+            460,
+            636
+          ],
+          "page": 1
+        },
+        {
+          "text": "Authorized Signature:",
+          "confidence": 0.9998678916728877,
+          "bbox": [
+            788,
+            626,
+            942,
+            650
+          ],
+          "page": 1
+        },
+        {
+          "text": "Special Instructions: Handie with care. Deliver to Stores Dept:",
+          "confidence": 0.8320529375040084,
+          "bbox": [
+            272,
+            636,
+            702,
+            662
+          ],
+          "page": 1
+        },
+        {
+          "text": "For ABC Technologies Pvt Ltd",
+          "confidence": 0.8510974482141538,
+          "bbox": [
+            866,
+            646,
+            1078,
+            670
+          ],
+          "page": 1
+        }
+      ],
+      "raw_text": "ABC Technologies Pvt Ltd PURCHASE ORDER 123, Tech Park; Bangalore - 560001 , Karataka; India PO Number: PO-2026-1042 ABC Tech Emall: acccunta@abctech com Order Date: 25-09-2026 Vendor: ABC Technologies Pvt Ltd Buyer: Industries Pvt Lld (456, Industrial Area, Chennai - 600096, Tamil Nadu; India) Delivery Date: 05-10-2026 Item Description Quantity (Qty) Unit Price () Total () Industrial Sensor (Model IS-200) 10 2,500.00 25,000.00 Gateway Module (Model GM-10) 5,000,00 10,000.00 Subtotal: 235,000.00 Tax (18% GST) {6,300.00 Grand Total: 241,300.00 Payment Terms: Net 30 days Shipping Method: Courier Authorized Signature: Special Instructions: Handie with care. Deliver to Stores Dept: For ABC Technologies Pvt Ltd",
+      "mean_confidence": 0.84
+    }
+  ],
+  "fields": {
+    "vendor_name": {
+      "name": "vendor_name",
+      "value": "ABC Technologies Pvt Ltd",
+      "normalized_value": "ABC Technologies Pvt Ltd",
+      "raw_text": "ABC Technologies Pvt Ltd",
+      "reliability": 0.798,
+      "signals": {
+        "ocr": 0.869,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            840,
+            154,
+            1008,
+            178
+          ],
+          "text": "ABC Technologies Pvt Ltd",
+          "ocr_confidence": 0.869
+        }
+      ],
+      "reasons": [],
+      "bbox": [
+        840,
+        154,
+        1008,
+        178
+      ],
+      "page": 1,
+      "ocr_confidence": 0.869,
+      "extraction_method": "rule_based",
+      "extracted_value": "ABC Technologies Pvt Ltd"
+    },
+    "buyer_name": {
+      "name": "buyer_name",
+      "value": "Industries Pvt Lld",
+      "normalized_value": "Industries Pvt Lld",
+      "raw_text": "Industries Pvt Lld",
+      "reliability": 0.74,
+      "signals": {
+        "ocr": 0.726,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            873,
+            175,
+            985,
+            193
+          ],
+          "text": "Industries Pvt Lld",
+          "ocr_confidence": 0.726
+        }
+      ],
+      "reasons": [],
+      "bbox": [
+        873,
+        175,
+        985,
+        193
+      ],
+      "page": 1,
+      "ocr_confidence": 0.726,
+      "extraction_method": "rule_based",
+      "extracted_value": "Industries Pvt Lld"
+    },
+    "order_date": {
+      "name": "order_date",
+      "value": "25-09-2026",
+      "normalized_value": "25-09-2026",
+      "raw_text": "ABC Tech Emall: acccunta@abctech com Order Date: 25-09-2026",
+      "reliability": 0.788,
+      "signals": {
+        "ocr": 0.844,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            839,
+            135,
+            917,
+            155
+          ],
+          "text": "ABC Tech Emall: acccunta@abctech com Order Date: 25-09-2026",
+          "ocr_confidence": 0.844
+        }
+      ],
+      "reasons": [],
+      "bbox": [
+        839,
+        135,
+        917,
+        155
+      ],
+      "page": 1,
+      "ocr_confidence": 0.844,
+      "extraction_method": "rule_based",
+      "extracted_value": "25-09-2026"
+    },
+    "delivery_date": {
+      "name": "delivery_date",
+      "value": "05-10-2026",
+      "normalized_value": "05-10-2026",
+      "raw_text": "Delivery Date: 05-10-2026",
+      "reliability": 0.804,
+      "signals": {
+        "ocr": 0.885,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            841,
+            227,
+            919,
+            245
+          ],
+          "text": "Delivery Date: 05-10-2026",
+          "ocr_confidence": 0.885
+        }
+      ],
+      "reasons": [],
+      "bbox": [
+        841,
+        227,
+        919,
+        245
+      ],
+      "page": 1,
+      "ocr_confidence": 0.885,
+      "extraction_method": "rule_based",
+      "extracted_value": "05-10-2026"
+    },
+    "subtotal": {
+      "name": "subtotal",
+      "value": "235000.00",
+      "normalized_value": "235000.00",
+      "raw_text": "235,000.00",
+      "reliability": 0.713,
+      "signals": {
+        "ocr": 0.658,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            979,
+            481,
+            1061,
+            501
+          ],
+          "text": "235,000.00",
+          "ocr_confidence": 0.658
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.66)"
+      ],
+      "bbox": [
+        979,
+        481,
+        1061,
+        501
+      ],
+      "page": 1,
+      "ocr_confidence": 0.658,
+      "extraction_method": "rule_based",
+      "extracted_value": "235000.00"
+    },
+    "tax": {
+      "name": "tax",
+      "value": "6300.00",
+      "normalized_value": "6300.00",
+      "raw_text": "6,300.00",
+      "reliability": 0.837,
+      "signals": {
+        "ocr": 0.967,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            989,
+            511,
+            1061,
+            531
+          ],
+          "text": "6,300.00",
+          "ocr_confidence": 0.967
+        }
+      ],
+      "reasons": [
+        "Tax 6300.00 inconsistent with 18% of subtotal (42300.00)"
+      ],
+      "bbox": [
+        989,
+        511,
+        1061,
+        531
+      ],
+      "page": 1,
+      "ocr_confidence": 0.967,
+      "extraction_method": "rule_based",
+      "extracted_value": "6300.00"
+    },
+    "grand_total": {
+      "name": "grand_total",
+      "value": "241300.00",
+      "normalized_value": "241300.00",
+      "raw_text": "241,300.00",
+      "reliability": 0.638,
+      "signals": {
+        "ocr": 0.469,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.0,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "702d9e60365847fe",
+          "page": 1,
+          "bbox": [
+            976,
+            540,
+            1064,
+            564
+          ],
+          "text": "241,300.00",
+          "ocr_confidence": 0.469
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.47)"
+      ],
+      "bbox": [
+        976,
+        540,
+        1064,
+        564
+      ],
+      "page": 1,
+      "ocr_confidence": 0.469,
+      "extraction_method": "rule_based",
+      "extracted_value": "241300.00"
+    }
+  },
+  "table": null,
+  "tamper": {
+    "status": "CLEAR",
+    "signals": []
+  },
+  "duplicate": {
+    "status": "CLEAR",
+    "matched_document_id": null,
+    "similarity": 0.0,
+    "evidence": ""
+  },
+  "reconciliation": null,
+  "review_required": true,
+  "overall_status": "REVIEW_REQUIRED",
+  "trace": [
+    {
+      "timestamp": "2026-09-26T09:47:02.335904",
+      "stage": "ingest",
+      "component": "Ingest",
+      "status": "completed",
+      "details": {
+        "file": "test.jped.jpeg",
+        "size": 702519
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:02.350911",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.assess_quality",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:02.363427",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.assess_quality",
+        "latency_ms": 12.5
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:02.363427",
+      "stage": "quality",
+      "component": "QualityGate",
+      "status": "DocumentQualityStatus.GOOD",
+      "details": {
+        "score": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:02.466608",
+      "stage": "preprocess",
+      "component": "Preprocessor",
+      "status": "completed",
+      "details": {
+        "page": 1
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.531319",
+      "stage": "ocr",
+      "component": "OCR",
+      "status": "completed",
+      "details": {
+        "page": 1,
+        "tokens": 41,
+        "mean_conf": 0.84
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.531319",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.classify",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.531319",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.classify",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.531319",
+      "stage": "classify",
+      "component": "Classifier",
+      "status": "completed",
+      "details": {
+        "type": "DocumentType.PURCHASE_ORDER",
+        "method": "deterministic_signals"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.531319",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.extract_fields",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.531319",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "vendor_name",
+        "value": "ABC Technologies Pvt Ltd",
+        "reliability": 0.798,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "buyer_name",
+        "value": "Industries Pvt Lld",
+        "reliability": 0.74,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "order_date",
+        "value": "25-09-2026",
+        "reliability": 0.788,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "delivery_date",
+        "value": "05-10-2026",
+        "reliability": 0.804,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "subtotal",
+        "value": "235000.00",
+        "reliability": 0.713,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "tax",
+        "value": "6300.00",
+        "reliability": 0.837,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "grand_total",
+        "value": "241300.00",
+        "reliability": 0.638,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "completed",
+      "details": {
+        "fields": 7
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.extract_fields",
+        "latency_ms": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.532318",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.extract_table",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "extract",
+      "component": "TableExtractor",
+      "status": "table_no_rows",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.extract_table",
+        "latency_ms": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.validate",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "started",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "arithmetic_pass",
+      "details": {
+        "computed": 241300.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "tax_rate_mismatch",
+      "details": {
+        "rate": 18.0,
+        "expected": 42300.0,
+        "actual": 6300.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "completed",
+      "details": {
+        "review_required": true
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.validate",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.detect_tamper",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "tamper_check",
+      "component": "TamperGuard",
+      "status": "TamperStatus.CLEAR",
+      "details": {
+        "signals": 0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.detect_tamper",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.detect_duplicate",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "duplicate_check",
+      "component": "DuplicateGuard",
+      "status": "CLEAR",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.detect_duplicate",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "finalize",
+      "component": "Planner",
+      "status": "RUN",
+      "details": {
+        "stage": "agent_loop"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:47:07.533318",
+      "stage": "finalize",
+      "component": "Validator",
+      "status": "REVIEW_REQUIRED",
+      "details": {
+        "missing_mandatory": [
+          "po_number"
+        ]
+      }
+    }
+  ]
+}

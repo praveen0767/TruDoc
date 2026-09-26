@@ -1,0 +1,5 @@
+INFO:     Started server process [33308]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+WARNING:backend.app.pipeline:Tesseract unavailable: Command '['tesseract', '--version']' returned non-zero exit status 3221225781.

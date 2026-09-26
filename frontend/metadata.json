@@ -1,0 +1,6 @@
+{
+  "name": "TruDoc",
+  "description": "Trusted Document Intelligence — Enterprise verification, deterministic cross-document reconciliation, evidence inspection, and agent execution trace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

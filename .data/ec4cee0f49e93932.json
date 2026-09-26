@@ -1,0 +1,909 @@
+{
+  "provenance": {
+    "document_id": "ec4cee0f49e93932",
+    "content_hash": "ec4cee0f49e9393278c2991a598ebd17d91b74253cce79a006179fdbba0839dc",
+    "document_type": "invoice",
+    "classification_method": "deterministic_signals",
+    "schema_version": "2.0",
+    "pipeline_version": "2.0",
+    "ocr_engine": "easyocr",
+    "ocr_engine_version": "1.7.2",
+    "processed_at": "2026-09-26T08:29:49.224859",
+    "mime_type": "image",
+    "page_count": 1
+  },
+  "quality": {
+    "signals": {
+      "blur": 712.7176513671875,
+      "contrast": 21.41371726989746,
+      "resolution": 595000,
+      "skew": 0.0,
+      "readability": 0.03004516154239828
+    },
+    "status": "DEGRADED",
+    "score": 0.7
+  },
+  "ocr_results": [
+    {
+      "page_number": 1,
+      "tokens": [
+        {
+          "text": "H-Ii-t",
+          "confidence": 0.01244119354473524,
+          "bbox": [
+            40,
+            72,
+            62,
+            78
+          ],
+          "page": 1
+        },
+        {
+          "text": "v7m",
+          "confidence": 0.018806726136811662,
+          "bbox": [
+            89,
+            69,
+            155,
+            81
+          ],
+          "page": 1
+        },
+        {
+          "text": "H-Ii-t",
+          "confidence": 0.01244119354473524,
+          "bbox": [
+            40,
+            96,
+            62,
+            102
+          ],
+          "page": 1
+        },
+        {
+          "text": "4077",
+          "confidence": 0.06509324163198471,
+          "bbox": [
+            95,
+            93,
+            147,
+            105
+          ],
+          "page": 1
+        },
+        {
+          "text": "077",
+          "confidence": 0.14121016386214783,
+          "bbox": [
+            97,
+            117,
+            141,
+            129
+          ],
+          "page": 1
+        },
+        {
+          "text": "VWi",
+          "confidence": 0.019376164903811548,
+          "bbox": [
+            58,
+            166,
+            84,
+            174
+          ],
+          "page": 1
+        },
+        {
+          "text": "75i Irt",
+          "confidence": 0.12357194374732162,
+          "bbox": [
+            100,
+            168,
+            130,
+            176
+          ],
+          "page": 1
+        },
+        {
+          "text": "f-E",
+          "confidence": 0.05298673095736663,
+          "bbox": [
+            80,
+            190,
+            104,
+            198
+          ],
+          "page": 1
+        },
+        {
+          "text": "C= E",
+          "confidence": 0.006960242184160697,
+          "bbox": [
+            144,
+            190,
+            170,
+            198
+          ],
+          "page": 1
+        },
+        {
+          "text": "ICOC",
+          "confidence": 0.17502187192440033,
+          "bbox": [
+            175,
+            189,
+            207,
+            201
+          ],
+          "page": 1
+        },
+        {
+          "text": "Ecc",
+          "confidence": 0.05982269277590979,
+          "bbox": [
+            48,
+            238,
+            74,
+            246
+          ],
+          "page": 1
+        },
+        {
+          "text": "N4 j .",
+          "confidence": 0.013823458707350637,
+          "bbox": [
+            83,
+            237,
+            121,
+            249
+          ],
+          "page": 1
+        },
+        {
+          "text": "i~ Ger",
+          "confidence": 0.12621323712629218,
+          "bbox": [
+            139,
+            261,
+            185,
+            273
+          ],
+          "page": 1
+        },
+        {
+          "text": "Lj",
+          "confidence": 0.05311189878789523,
+          "bbox": [
+            188,
+            262,
+            218,
+            270
+          ],
+          "page": 1
+        },
+        {
+          "text": "Ar",
+          "confidence": 0.05098991786258664,
+          "bbox": [
+            84,
+            310,
+            106,
+            318
+          ],
+          "page": 1
+        },
+        {
+          "text": "U-Ir",
+          "confidence": 0.06778094917535782,
+          "bbox": [
+            80,
+            358,
+            104,
+            366
+          ],
+          "page": 1
+        },
+        {
+          "text": "0'",
+          "confidence": 0.10369051985508487,
+          "bbox": [
+            110,
+            358,
+            134,
+            366
+          ],
+          "page": 1
+        },
+        {
+          "text": "Joj",
+          "confidence": 0.07907260175758274,
+          "bbox": [
+            175,
+            357,
+            221,
+            369
+          ],
+          "page": 1
+        },
+        {
+          "text": "JoOj",
+          "confidence": 0.06397268921136856,
+          "bbox": [
+            225,
+            357,
+            277,
+            369
+          ],
+          "page": 1
+        },
+        {
+          "text": "jCOj",
+          "confidence": 0.11655469983816147,
+          "bbox": [
+            225,
+            381,
+            271,
+            393
+          ],
+          "page": 1
+        },
+        {
+          "text": "i'E-r",
+          "confidence": 0.033986201616827215,
+          "bbox": [
+            120,
+            406,
+            148,
+            414
+          ],
+          "page": 1
+        },
+        {
+          "text": "eoj",
+          "confidence": 0.05734906068292839,
+          "bbox": [
+            181,
+            405,
+            221,
+            417
+          ],
+          "page": 1
+        },
+        {
+          "text": "ICoj",
+          "confidence": 0.2306305468082428,
+          "bbox": [
+            227,
+            405,
+            273,
+            417
+          ],
+          "page": 1
+        },
+        {
+          "text": "#Oj",
+          "confidence": 0.08139412911125968,
+          "bbox": [
+            149,
+            453,
+            201,
+            465
+          ],
+          "page": 1
+        },
+        {
+          "text": "37",
+          "confidence": 0.24978847791025108,
+          "bbox": [
+            115,
+            477,
+            137,
+            489
+          ],
+          "page": 1
+        },
+        {
+          "text": "70j",
+          "confidence": 0.04918055074826074,
+          "bbox": [
+            169,
+            477,
+            215,
+            489
+          ],
+          "page": 1
+        },
+        {
+          "text": "3",
+          "confidence": 0.4408758613063277,
+          "bbox": [
+            98,
+            502,
+            126,
+            510
+          ],
+          "page": 1
+        },
+        {
+          "text": "J70jC",
+          "confidence": 0.06165198912469756,
+          "bbox": [
+            159,
+            501,
+            211,
+            513
+          ],
+          "page": 1
+        },
+        {
+          "text": "ictttr",
+          "confidence": 0.21978303148650627,
+          "bbox": [
+            30,
+            550,
+            78,
+            558
+          ],
+          "page": 1
+        },
+        {
+          "text": "i07",
+          "confidence": 0.121537807679651,
+          "bbox": [
+            97,
+            547,
+            167,
+            561
+          ],
+          "page": 1
+        },
+        {
+          "text": "iSir",
+          "confidence": 0.14357388019561768,
+          "bbox": [
+            30,
+            574,
+            60,
+            582
+          ],
+          "page": 1
+        },
+        {
+          "text": "1ai",
+          "confidence": 0.016190100784591592,
+          "bbox": [
+            125,
+            573,
+            159,
+            585
+          ],
+          "page": 1
+        },
+        {
+          "text": "U *6=",
+          "confidence": 0.0049010228373624655,
+          "bbox": [
+            58,
+            598,
+            84,
+            604
+          ],
+          "page": 1
+        },
+        {
+          "text": "VCCCL",
+          "confidence": 0.12834556512144304,
+          "bbox": [
+            88,
+            598,
+            116,
+            606
+          ],
+          "page": 1
+        },
+        {
+          "text": "Jtat",
+          "confidence": 0.0733996331691742,
+          "bbox": [
+            133,
+            597,
+            179,
+            609
+          ],
+          "page": 1
+        }
+      ],
+      "raw_text": "H-Ii-t v7m H-Ii-t 4077 077 VWi 75i Irt f-E C= E ICOC Ecc N4 j . i~ Ger Lj Ar U-Ir 0' Joj JoOj jCOj i'E-r eoj ICoj #Oj 37 70j 3 J70jC ictttr i07 iSir 1ai U *6= VCCCL Jtat",
+      "mean_confidence": 0.094
+    }
+  ],
+  "fields": {
+    "vendor_name": {
+      "name": "vendor_name",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": false,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "REVIEW_REQUIRED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document",
+        "MANDATORY field missing"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    },
+    "buyer_name": {
+      "name": "buyer_name",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "UNEXTRACTED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    },
+    "invoice_date": {
+      "name": "invoice_date",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "UNEXTRACTED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    },
+    "due_date": {
+      "name": "due_date",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "UNEXTRACTED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    },
+    "subtotal": {
+      "name": "subtotal",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "UNEXTRACTED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    },
+    "tax": {
+      "name": "tax",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "UNEXTRACTED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    },
+    "grand_total": {
+      "name": "grand_total",
+      "value": "",
+      "normalized_value": "",
+      "raw_text": "",
+      "reliability": 0.0,
+      "signals": {
+        "ocr": 0.0,
+        "format_valid": false,
+        "business_rule_valid": false,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "REVIEW_REQUIRED",
+      "evidence": [],
+      "reasons": [
+        "Not found in document",
+        "MANDATORY field missing"
+      ],
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "page": 1,
+      "ocr_confidence": 0.0,
+      "extraction_method": "none",
+      "extracted_value": ""
+    }
+  },
+  "table": null,
+  "tamper": {
+    "status": "CLEAR",
+    "signals": []
+  },
+  "duplicate": {
+    "status": "CLEAR",
+    "matched_document_id": null,
+    "similarity": 0.0,
+    "evidence": ""
+  },
+  "reconciliation": null,
+  "review_required": true,
+  "overall_status": "REVIEW_REQUIRED",
+  "trace": [
+    {
+      "timestamp": "2026-09-26T08:29:49.224859",
+      "stage": "ingest",
+      "component": "Ingest",
+      "status": "completed",
+      "details": {
+        "file": "invoice.png",
+        "size": 29679
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:49.232859",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.assess_quality",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:49.239373",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.assess_quality",
+        "latency_ms": 6.5
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:49.240372",
+      "stage": "quality",
+      "component": "QualityGate",
+      "status": "DocumentQualityStatus.DEGRADED",
+      "details": {
+        "score": 0.7
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:49.264478",
+      "stage": "preprocess",
+      "component": "Preprocessor",
+      "status": "completed",
+      "details": {
+        "page": 1
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.345929",
+      "stage": "ocr",
+      "component": "OCR",
+      "status": "completed",
+      "details": {
+        "page": 1,
+        "tokens": 35,
+        "mean_conf": 0.094
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.346927",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.classify",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.346927",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.classify",
+        "latency_ms": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.346927",
+      "stage": "classify",
+      "component": "Classifier",
+      "status": "completed",
+      "details": {
+        "type": "DocumentType.INVOICE",
+        "method": "deterministic_signals"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.346927",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.extract_fields",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "completed",
+      "details": {
+        "fields": 7
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.extract_fields",
+        "latency_ms": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.extract_table",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "extract",
+      "component": "TableExtractor",
+      "status": "table_no_rows",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.extract_table",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.validate",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "started",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "completed",
+      "details": {
+        "review_required": true
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.validate",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.detect_tamper",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "tamper_check",
+      "component": "TamperGuard",
+      "status": "TamperStatus.CLEAR",
+      "details": {
+        "signals": 0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.detect_tamper",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.detect_duplicate",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "duplicate_check",
+      "component": "DuplicateGuard",
+      "status": "CLEAR",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.detect_duplicate",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "finalize",
+      "component": "Planner",
+      "status": "RUN",
+      "details": {
+        "stage": "agent_loop"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T08:29:56.347927",
+      "stage": "finalize",
+      "component": "Validator",
+      "status": "REVIEW_REQUIRED",
+      "details": {
+        "missing_mandatory": [
+          "invoice_number",
+          "vendor_name",
+          "grand_total"
+        ]
+      }
+    }
+  ]
+}

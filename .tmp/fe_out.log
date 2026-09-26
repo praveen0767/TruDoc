@@ -1,0 +1,22 @@
+
+> react-example@0.0.0 dev
+> vite --port=3000 --host=0.0.0.0
+
+Port 3000 is in use, trying another one...
+
+  [32m[1mVITE[22m v8.3.1[39m  [2mready in [0m[1m734[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3001[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.136.1:[1m3001[22m/[39m  [2mVMware Network Adap…[22m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.44.1:[1m3001[22m/[39m   [2mVMware Network Adap…[22m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://10.201.40.242:[1m3001[22m/[39m  [2mWi-Fi[22m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.208.1:[1m3001[22m/[39m   [2mvEthernet (WSL (Hyp…[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m2:51:53 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[2m2:51:53 pm[22m [36m[1m[vite][22m[39m server restarted.
+[2m2:55:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/OverviewPage.tsx, /src/pages/ReviewsPage.tsx, /src/pages/ReviewWorkspacePage.tsx, /src/components/layout/Sidebar.tsx[22m
+[2m2:55:09 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/EvidencePage.tsx[22m
+[2m2:55:11 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/PoliciesPage.tsx, /src/components/modals/SearchModal.tsx[22m
+[2m2:55:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/SystemPage.tsx, /src/components/layout/StatusBar.tsx, /src/components/layout/Sidebar.tsx, /src/components/layout/Topbar.tsx[22m
+[2m2:55:15 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/OverviewPage.tsx, /src/pages/ReconciliationPage.tsx, /src/pages/DocumentWorkspacePage.tsx, /src/pages/CaseDetailPage.tsx, /src/components/modals/CreditNoteModal.tsx, /src/components/modals/ExceptionModal.tsx[22m
+[2m2:55:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/OverviewPage.tsx, /src/pages/ReconciliationPage.tsx, /src/pages/DocumentWorkspacePage.tsx, /src/pages/CaseDetailPage.tsx, /src/components/modals/CreditNoteModal.tsx, /src/components/modals/ExceptionModal.tsx[22m

@@ -1,0 +1,1142 @@
+{
+  "provenance": {
+    "document_id": "ddd16524884e6cca",
+    "content_hash": "ddd16524884e6cca40cc8cc700f48df3380b91431faeee4f2f4b3fb4bd98f8e1",
+    "document_type": "purchase_order",
+    "classification_method": "deterministic_signals",
+    "schema_version": "2.0",
+    "pipeline_version": "2.0",
+    "ocr_engine": "easyocr",
+    "ocr_engine_version": "1.7.2",
+    "processed_at": "2026-09-26T09:10:34.791966",
+    "mime_type": "image",
+    "page_count": 1
+  },
+  "quality": {
+    "signals": {
+      "blur": 745.960693359375,
+      "contrast": 21.84541893005371,
+      "resolution": 552500,
+      "skew": 0.0,
+      "readability": 0.029284946018837986
+    },
+    "status": "DEGRADED",
+    "score": 0.7
+  },
+  "ocr_results": [
+    {
+      "page_number": 1,
+      "tokens": [
+        {
+          "text": "PURCHASE ORDER",
+          "confidence": 0.7183049939031503,
+          "bbox": [
+            69,
+            21,
+            159,
+            33
+          ],
+          "page": 1
+        },
+        {
+          "text": "FONumber",
+          "confidence": 0.7128632218248281,
+          "bbox": [
+            29,
+            69,
+            89,
+            81
+          ],
+          "page": 1
+        },
+        {
+          "text": "PO 2026-1042",
+          "confidence": 0.7692013510238294,
+          "bbox": [
+            93,
+            69,
+            163,
+            81
+          ],
+          "page": 1
+        },
+        {
+          "text": "Order Date: 10/08/2026",
+          "confidence": 0.4075341431058528,
+          "bbox": [
+            29,
+            93,
+            143,
+            105
+          ],
+          "page": 1
+        },
+        {
+          "text": "Delivery Date: 25,06/2026",
+          "confidence": 0.6953845416818453,
+          "bbox": [
+            29,
+            115,
+            153,
+            131
+          ],
+          "page": 1
+        },
+        {
+          "text": "Vendor: ACME Supplies Ltd:",
+          "confidence": 0.6804802268541721,
+          "bbox": [
+            29,
+            165,
+            163,
+            179
+          ],
+          "page": 1
+        },
+        {
+          "text": "123 Industrial Park Mumbai 400OO1",
+          "confidence": 0.5002981055418138,
+          "bbox": [
+            47,
+            189,
+            219,
+            201
+          ],
+          "page": 1
+        },
+        {
+          "text": "Bill Ta GlobalTech Pvt Ltd",
+          "confidence": 0.6182297395613446,
+          "bbox": [
+            29,
+            237,
+            155,
+            249
+          ],
+          "page": 1
+        },
+        {
+          "text": "456 Tech Boulevard Bangalore 580001",
+          "confidence": 0.6433386132533991,
+          "bbox": [
+            47,
+            261,
+            233,
+            275
+          ],
+          "page": 1
+        },
+        {
+          "text": "Item Desription",
+          "confidence": 0.7425456021744273,
+          "bbox": [
+            29,
+            309,
+            111,
+            321
+          ],
+          "page": 1
+        },
+        {
+          "text": "Oty Unit Price Line Total",
+          "confidence": 0.8940610062585739,
+          "bbox": [
+            139,
+            309,
+            261,
+            323
+          ],
+          "page": 1
+        },
+        {
+          "text": "Laptop Model X5OO",
+          "confidence": 0.3961701123459946,
+          "bbox": [
+            45,
+            357,
+            137,
+            371
+          ],
+          "page": 1
+        },
+        {
+          "text": "35000.00 350000.00",
+          "confidence": 0.8206499195312572,
+          "bbox": [
+            175,
+            357,
+            279,
+            369
+          ],
+          "page": 1
+        },
+        {
+          "text": "Wireless Mouse Pro",
+          "confidence": 0.767580903680411,
+          "bbox": [
+            45,
+            381,
+            137,
+            393
+          ],
+          "page": 1
+        },
+        {
+          "text": "1500.00",
+          "confidence": 0.9901646530325161,
+          "bbox": [
+            179,
+            379,
+            221,
+            393
+          ],
+          "page": 1
+        },
+        {
+          "text": "30000.00",
+          "confidence": 0.7526876940273065,
+          "bbox": [
+            225,
+            381,
+            273,
+            393
+          ],
+          "page": 1
+        },
+        {
+          "text": "USB C Docking Station",
+          "confidence": 0.8478288188951595,
+          "bbox": [
+            45,
+            405,
+            153,
+            419
+          ],
+          "page": 1
+        },
+        {
+          "text": "8000.00",
+          "confidence": 0.9788940638883635,
+          "bbox": [
+            179,
+            403,
+            223,
+            417
+          ],
+          "page": 1
+        },
+        {
+          "text": "40OO0.00",
+          "confidence": 0.29497716125691287,
+          "bbox": [
+            227,
+            403,
+            275,
+            417
+          ],
+          "page": 1
+        },
+        {
+          "text": "Subtotal:",
+          "confidence": 0.7732042871941526,
+          "bbox": [
+            97,
+            453,
+            141,
+            465
+          ],
+          "page": 1
+        },
+        {
+          "text": "420000.00",
+          "confidence": 0.9198575625778179,
+          "bbox": [
+            149,
+            453,
+            203,
+            465
+          ],
+          "page": 1
+        },
+        {
+          "text": "Tax (GST 18%4: 75800.00",
+          "confidence": 0.6197652615020439,
+          "bbox": [
+            97,
+            475,
+            215,
+            489
+          ],
+          "page": 1
+        },
+        {
+          "text": "Grand Total:    495800.00",
+          "confidence": 0.653986613527269,
+          "bbox": [
+            97,
+            501,
+            211,
+            513
+          ],
+          "page": 1
+        },
+        {
+          "text": "Authorized Signature:",
+          "confidence": 0.9849810613370015,
+          "bbox": [
+            29,
+            549,
+            135,
+            563
+          ],
+          "page": 1
+        },
+        {
+          "text": "Terms",
+          "confidence": 0.1815024711708773,
+          "bbox": [
+            30,
+            574,
+            60,
+            582
+          ],
+          "page": 1
+        },
+        {
+          "text": "Net30 days",
+          "confidence": 0.9661470533664042,
+          "bbox": [
+            61,
+            571,
+            119,
+            585
+          ],
+          "page": 1
+        }
+      ],
+      "raw_text": "PURCHASE ORDER FONumber PO 2026-1042 Order Date: 10/08/2026 Delivery Date: 25,06/2026 Vendor: ACME Supplies Ltd: 123 Industrial Park Mumbai 400OO1 Bill Ta GlobalTech Pvt Ltd 456 Tech Boulevard Bangalore 580001 Item Desription Oty Unit Price Line Total Laptop Model X5OO 35000.00 350000.00 Wireless Mouse Pro 1500.00 30000.00 USB C Docking Station 8000.00 40OO0.00 Subtotal: 420000.00 Tax (GST 18%4: 75800.00 Grand Total:    495800.00 Authorized Signature: Terms Net30 days",
+      "mean_confidence": 0.705
+    }
+  ],
+  "fields": {
+    "vendor_name": {
+      "name": "vendor_name",
+      "value": "ACME Supplies Ltd",
+      "normalized_value": "ACME Supplies Ltd",
+      "raw_text": "ACME Supplies Ltd",
+      "reliability": 0.692,
+      "signals": {
+        "ocr": 0.68,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            29,
+            165,
+            163,
+            179
+          ],
+          "text": "ACME Supplies Ltd",
+          "ocr_confidence": 0.68
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.68)"
+      ],
+      "bbox": [
+        29,
+        165,
+        163,
+        179
+      ],
+      "page": 1,
+      "ocr_confidence": 0.68,
+      "extraction_method": "rule_based",
+      "extracted_value": "ACME Supplies Ltd"
+    },
+    "buyer_name": {
+      "name": "buyer_name",
+      "value": "GlobalTech Pvt Ltd",
+      "normalized_value": "GlobalTech Pvt Ltd",
+      "raw_text": "GlobalTech Pvt Ltd",
+      "reliability": 0.667,
+      "signals": {
+        "ocr": 0.618,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            29,
+            237,
+            155,
+            249
+          ],
+          "text": "GlobalTech Pvt Ltd",
+          "ocr_confidence": 0.618
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.62)"
+      ],
+      "bbox": [
+        29,
+        237,
+        155,
+        249
+      ],
+      "page": 1,
+      "ocr_confidence": 0.618,
+      "extraction_method": "rule_based",
+      "extracted_value": "GlobalTech Pvt Ltd"
+    },
+    "order_date": {
+      "name": "order_date",
+      "value": "10/08/2026",
+      "normalized_value": "10/08/2026",
+      "raw_text": "Order Date: 10/08/2026",
+      "reliability": 0.583,
+      "signals": {
+        "ocr": 0.408,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            29,
+            93,
+            143,
+            105
+          ],
+          "text": "Order Date: 10/08/2026",
+          "ocr_confidence": 0.408
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.41)"
+      ],
+      "bbox": [
+        29,
+        93,
+        143,
+        105
+      ],
+      "page": 1,
+      "ocr_confidence": 0.408,
+      "extraction_method": "rule_based",
+      "extracted_value": "10/08/2026"
+    },
+    "delivery_date": {
+      "name": "delivery_date",
+      "value": "25/06/2026",
+      "normalized_value": "25/06/2026",
+      "raw_text": "Delivery Date: 25,06/2026",
+      "reliability": 0.698,
+      "signals": {
+        "ocr": 0.695,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            29,
+            115,
+            153,
+            131
+          ],
+          "text": "Delivery Date: 25,06/2026",
+          "ocr_confidence": 0.695
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.69)"
+      ],
+      "bbox": [
+        29,
+        115,
+        153,
+        131
+      ],
+      "page": 1,
+      "ocr_confidence": 0.695,
+      "extraction_method": "rule_based",
+      "extracted_value": "25/06/2026"
+    },
+    "subtotal": {
+      "name": "subtotal",
+      "value": "420000.00",
+      "normalized_value": "420000.00",
+      "raw_text": "420000.00",
+      "reliability": 0.788,
+      "signals": {
+        "ocr": 0.92,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            149,
+            453,
+            203,
+            465
+          ],
+          "text": "420000.00",
+          "ocr_confidence": 0.92
+        }
+      ],
+      "reasons": [
+        "Table sum=70000.00 vs subtotal=420000.00"
+      ],
+      "bbox": [
+        149,
+        453,
+        203,
+        465
+      ],
+      "page": 1,
+      "ocr_confidence": 0.92,
+      "extraction_method": "rule_based",
+      "extracted_value": "420000.00"
+    },
+    "tax": {
+      "name": "tax",
+      "value": "75800.00",
+      "normalized_value": "75800.00",
+      "raw_text": "75800.00",
+      "reliability": 0.668,
+      "signals": {
+        "ocr": 0.62,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            97,
+            475,
+            215,
+            489
+          ],
+          "text": "75800.00",
+          "ocr_confidence": 0.62
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.62)"
+      ],
+      "bbox": [
+        97,
+        475,
+        215,
+        489
+      ],
+      "page": 1,
+      "ocr_confidence": 0.62,
+      "extraction_method": "rule_based",
+      "extracted_value": "75800.00"
+    },
+    "grand_total": {
+      "name": "grand_total",
+      "value": "495800.00",
+      "normalized_value": "495800.00",
+      "raw_text": "495800.00",
+      "reliability": 0.682,
+      "signals": {
+        "ocr": 0.654,
+        "format_valid": true,
+        "business_rule_valid": true,
+        "cross_document_match": false,
+        "quality_penalty": 0.30000000000000004,
+        "ambiguity_penalty": 0.0
+      },
+      "status": "VALID",
+      "evidence": [
+        {
+          "document_id": "ddd16524884e6cca",
+          "page": 1,
+          "bbox": [
+            97,
+            501,
+            211,
+            513
+          ],
+          "text": "495800.00",
+          "ocr_confidence": 0.654
+        }
+      ],
+      "reasons": [
+        "Low OCR confidence (0.65)"
+      ],
+      "bbox": [
+        97,
+        501,
+        211,
+        513
+      ],
+      "page": 1,
+      "ocr_confidence": 0.654,
+      "extraction_method": "rule_based",
+      "extracted_value": "495800.00"
+    }
+  },
+  "table": {
+    "page": 1,
+    "rows": [
+      {
+        "item": {
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.0,
+          "bbox": [
+            45,
+            381,
+            137,
+            393
+          ],
+          "derived": true
+        },
+        "description": {
+          "value": "Wireless Mouse Pro",
+          "raw_text": "Wireless Mouse Pro",
+          "confidence": 0.768,
+          "bbox": [
+            45,
+            381,
+            137,
+            393
+          ],
+          "derived": false
+        },
+        "quantity": {
+          "value": "20",
+          "raw_text": "derived 30000.0/1500.0",
+          "confidence": 0.0,
+          "bbox": [
+            179,
+            379,
+            221,
+            393
+          ],
+          "derived": true
+        },
+        "unit_price": {
+          "value": "1500.00",
+          "raw_text": "1500.00",
+          "confidence": 0.99,
+          "bbox": [
+            179,
+            379,
+            221,
+            393
+          ],
+          "derived": false
+        },
+        "line_total": {
+          "value": "30000.00",
+          "raw_text": "30000.00",
+          "confidence": 0.753,
+          "bbox": [
+            225,
+            381,
+            273,
+            393
+          ],
+          "derived": false
+        },
+        "arithmetic_valid": true,
+        "arithmetic_note": ""
+      },
+      {
+        "item": {
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.0,
+          "bbox": [
+            45,
+            405,
+            153,
+            419
+          ],
+          "derived": true
+        },
+        "description": {
+          "value": "USB C Docking Station",
+          "raw_text": "USB C Docking Station",
+          "confidence": 0.848,
+          "bbox": [
+            45,
+            405,
+            153,
+            419
+          ],
+          "derived": false
+        },
+        "quantity": {
+          "value": "5",
+          "raw_text": "derived 40000.0/8000.0",
+          "confidence": 0.0,
+          "bbox": [
+            179,
+            403,
+            223,
+            417
+          ],
+          "derived": true
+        },
+        "unit_price": {
+          "value": "8000.00",
+          "raw_text": "8000.00",
+          "confidence": 0.979,
+          "bbox": [
+            179,
+            403,
+            223,
+            417
+          ],
+          "derived": false
+        },
+        "line_total": {
+          "value": "40000.00",
+          "raw_text": "40OO0.00",
+          "confidence": 0.295,
+          "bbox": [
+            227,
+            403,
+            275,
+            417
+          ],
+          "derived": false
+        },
+        "arithmetic_valid": true,
+        "arithmetic_note": ""
+      }
+    ],
+    "columns": [
+      "item",
+      "description",
+      "quantity",
+      "unit_price",
+      "line_total"
+    ],
+    "evidence_text": "2 rows extracted"
+  },
+  "tamper": {
+    "status": "CLEAR",
+    "signals": []
+  },
+  "duplicate": {
+    "status": "CLEAR",
+    "matched_document_id": null,
+    "similarity": 0.0,
+    "evidence": ""
+  },
+  "reconciliation": null,
+  "review_required": true,
+  "overall_status": "REVIEW_REQUIRED",
+  "trace": [
+    {
+      "timestamp": "2026-09-26T09:10:34.795973",
+      "stage": "ingest",
+      "component": "Ingest",
+      "status": "completed",
+      "details": {
+        "file": "purchase_order.png",
+        "size": 27664
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:34.899670",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.assess_quality",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:34.922133",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.assess_quality",
+        "latency_ms": 22.5
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:34.922133",
+      "stage": "quality",
+      "component": "QualityGate",
+      "status": "DocumentQualityStatus.DEGRADED",
+      "details": {
+        "score": 0.7
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:34.941929",
+      "stage": "preprocess",
+      "component": "Preprocessor",
+      "status": "completed",
+      "details": {
+        "page": 1
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.948920",
+      "stage": "ocr",
+      "component": "OCR",
+      "status": "completed",
+      "details": {
+        "page": 1,
+        "tokens": 26,
+        "mean_conf": 0.705
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.948920",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.classify",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.949919",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.classify",
+        "latency_ms": 1.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.949919",
+      "stage": "classify",
+      "component": "Classifier",
+      "status": "completed",
+      "details": {
+        "type": "DocumentType.PURCHASE_ORDER",
+        "method": "deterministic_signals"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.949919",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.extract_fields",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.955919",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "vendor_name",
+        "value": "ACME Supplies Ltd",
+        "reliability": 0.692,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.956919",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "buyer_name",
+        "value": "GlobalTech Pvt Ltd",
+        "reliability": 0.667,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.957919",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "order_date",
+        "value": "10/08/2026",
+        "reliability": 0.583,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.959920",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "delivery_date",
+        "value": "25/06/2026",
+        "reliability": 0.698,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.960920",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "subtotal",
+        "value": "420000.00",
+        "reliability": 0.788,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.960920",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "tax",
+        "value": "75800.00",
+        "reliability": 0.668,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.961921",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "field_found",
+      "details": {
+        "field": "grand_total",
+        "value": "495800.00",
+        "reliability": 0.682,
+        "status": "FieldStatus.VALID"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.961921",
+      "stage": "extract",
+      "component": "Extractor",
+      "status": "completed",
+      "details": {
+        "fields": 7
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.961921",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.extract_fields",
+        "latency_ms": 12.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.961921",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.extract_table",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "extract",
+      "component": "TableExtractor",
+      "status": "table_rows",
+      "details": {
+        "rows": 2
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.extract_table",
+        "latency_ms": 3.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.validate",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "started",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "arithmetic_pass",
+      "details": {
+        "computed": 495800.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "subtotal_table_mismatch",
+      "details": {
+        "table_sum": 70000.0,
+        "subtotal": 420000.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "validate",
+      "component": "Validator",
+      "status": "completed",
+      "details": {
+        "review_required": true
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.validate",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.detect_tamper",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "tamper_check",
+      "component": "TamperGuard",
+      "status": "TamperStatus.CLEAR",
+      "details": {
+        "signals": 0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.detect_tamper",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "policy",
+      "component": "Policy",
+      "status": "ALLOWED",
+      "details": {
+        "tool": "document.detect_duplicate",
+        "risk": "RiskLevel.LOW"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "duplicate_check",
+      "component": "DuplicateGuard",
+      "status": "CLEAR",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "exec",
+      "component": "Executor",
+      "status": "COMPLETED",
+      "details": {
+        "tool": "document.detect_duplicate",
+        "latency_ms": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "finalize",
+      "component": "Planner",
+      "status": "RUN",
+      "details": {
+        "stage": "agent_loop"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T09:10:38.964925",
+      "stage": "finalize",
+      "component": "Validator",
+      "status": "REVIEW_REQUIRED",
+      "details": {
+        "missing_mandatory": [
+          "po_number"
+        ]
+      }
+    }
+  ]
+}
