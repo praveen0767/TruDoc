@@ -14,6 +14,7 @@
 <img src="https://img.shields.io/badge/Qdrant-Semantic%20Memory-7C3AED?style=for-the-badge" alt="Qdrant"/>
 <img src="https://img.shields.io/badge/Redis-Coordination-DC2626?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
 <img src="https://img.shields.io/badge/MCP-Tool%20Governance-0F766E?style=for-the-badge" alt="MCP"/>
+<img src="https://img.shields.io/badge/SHA--256-Content%20Integrity%20%2F%20Tamper%20Detection-6B21A8?style=for-the-badge" alt="SHA-256 Content Integrity"/>
 
 </p>
 
