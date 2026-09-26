@@ -4,6 +4,28 @@
   <strong>AI-assisted document extraction with evidence, validation, reconciliation, and human review.</strong>
 </p>
 
+## 🧭 Current Build Evidence
+
+| Metric | Current local run |
+|---|---:|
+| Field coverage | **7 / 7 (100%)** |
+| Mean field reliability | **76%** |
+| OCR mean confidence | **0.84** |
+| Integrity status | **SHA-256 tracked** |
+| Trust outcome | **REVIEW_REQUIRED** |
+
+> **Evaluation note:** these are current local demonstration metrics from the running TruDoc workflow, not a statistically calibrated benchmark. Precision/recall and production-scale performance are intentionally not claimed without a labelled evaluation corpus.
+
+### 🔐 Live SHA-256 Content-Integrity Proof
+
+<p align="center">
+  <img src="./docs/screenshots/08-sha256-content-integrity.png" alt="TruDoc SHA-256 content integrity evidence" width="1000"/>
+</p>
+
+> The document is registered with a SHA-256 content hash. On later verification, a hash mismatch produces `CONTENT_HASH_CHANGED → SUSPICIOUS SIGNAL → REVIEW_REQUIRED`. A changed hash proves byte-level difference from the registered artifact; it does **not** by itself prove malicious fraud.
+
+---
+
 <p align="center">
 
 <img src="https://img.shields.io/badge/Track-05%20Document%20Intelligence-0f172a?style=for-the-badge" alt="Track 05"/>
@@ -1173,6 +1195,14 @@ Additional modules can be introduced as functionality becomes real; empty archit
 ---
 
 # 18. Product Proof
+
+## 00 — SHA-256 Content Integrity
+
+<p align="center">
+  <img src="./docs/screenshots/08-sha256-content-integrity.png" alt="SHA-256 content integrity evidence" width="1000"/>
+</p>
+
+> **Integrity evidence:** registered SHA-256 hash shown in the TruDoc provenance view. The verification path flags a changed hash as `CONTENT_HASH_CHANGED` and routes it to review.
 
 Screenshots will be added after the final local run.
 
