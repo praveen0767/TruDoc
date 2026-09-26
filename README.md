@@ -19,7 +19,7 @@
 ### 🔐 Live SHA-256 Content-Integrity Proof
 
 <p align="center">
-  <img src="./docs/screenshots/08-sha256-content-integrity.png" alt="TruDoc SHA-256 content integrity evidence" width="1000"/>
+  <img src="[./docs/screenshots/08-sha256-content-integrity.png](https://github.com/praveen0767/TruDoc/blob/main/Screenshot%202026-09-26%20162653.png)" alt="TruDoc SHA-256 content integrity evidence" width="1000"/>
 </p>
 
 > The document is registered with a SHA-256 content hash. On later verification, a hash mismatch produces `CONTENT_HASH_CHANGED → SUSPICIOUS SIGNAL → REVIEW_REQUIRED`. A changed hash proves byte-level difference from the registered artifact; it does **not** by itself prove malicious fraud.
